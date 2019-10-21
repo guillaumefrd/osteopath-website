@@ -265,3 +265,19 @@ p {
 #contact {
   margin-bottom: 0px;
 }
+
+#phone {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, 0);
+  font-size: 1em;
+  text-decoration: none;
+}
+
+#phone .section-heading-lower {
+  font-size: 1em !important;
+}
+
+#phone a {
+  text-decoration: none;
+}
