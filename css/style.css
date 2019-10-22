@@ -22,6 +22,10 @@ h6 {
   font-family: 'Raleway';
 }
 
+h4 {
+  margin-top: 1em;
+}
+
 p {
   line-height: 1.75;
 }
@@ -292,4 +296,12 @@ p {
 
 #name {
   margin-top: 1em;
+}
+
+#tarif {
+  margin-top: 3em;
+}
+
+#adeli {
+  font-size: 1.2em;
 }

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 
 <head>
 
@@ -25,7 +25,7 @@
   <link href="https://fonts.googleapis.com/css?family=Lora:400,400i,700,700i" rel="stylesheet">
 
   <!-- Custom styles for this template -->
-  <link href="css/business-casual.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
 
   <!-- Font awesome icons  -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
@@ -53,11 +53,21 @@
               <span class="sr-only">(current)</span>
             </a>
           </li>
-          <li class="nav-item active px-lg-4">
-            <a class="nav-link text-uppercase text-expanded" href="consultation.html">La consultation</a>
+          <li class="nav-item dropdown px-lg-4">
+            <a class="nav-link dropdown-toggle text-uppercase text-expanded" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">La consultation</a>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="consultation.html#deroulement">Déroulement d'une séance</a>
+              <a class="dropdown-item" href="consultation.html#tarif">Tarif</a>
+            </div>
           </li>
-          <li class="nav-item px-lg-4">
-            <a class="nav-link text-uppercase text-expanded" href="differentes-prises-en-charge.html">Les différentes prises en charge</a>
+          <li class="nav-item dropdown px-lg-4">
+            <a class="nav-link dropdown-toggle text-uppercase text-expanded" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Les différentes prises en charge</a>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="differentes-prises-en-charge.html#nourrissons">Nourrissons</a>
+              <a class="dropdown-item" href="differentes-prises-en-charge.html#femmes-enceintes">Femmes enceintes</a>
+              <a class="dropdown-item" href="differentes-prises-en-charge.html#enfants-ados">Enfants / adolescents</a>
+              <a class="dropdown-item" href="differentes-prises-en-charge.html#adultes">Adultes</a>
+            </div>
           </li>
           <li class="nav-item px-lg-4">
             <a class="nav-link text-uppercase text-expanded" href="informations.html">Informations pratiques</a>
@@ -67,19 +77,48 @@
     </div>
   </nav>
 
-  <section class="page-section about-heading">
+  <section class="page-section about-heading" id="deroulement">
     <div class="container">
-      <img class="img-fluid rounded about-heading-img mb-3 mb-lg-0" src="img/about.jpg" alt="">
+      <img class="img-fluid rounded about-heading-img mb-3 mb-lg-0" src="img/consultation.jpg" alt="">
       <div class="about-heading-content">
         <div class="row">
           <div class="col-xl-9 col-lg-10 mx-auto">
             <div class="bg-faded rounded p-5">
               <h2 class="section-heading mb-4">
-                <span class="section-heading-upper">Strong Coffee, Strong Roots</span>
-                <span class="section-heading-lower">About Our Cafe</span>
+                <span class="section-heading-lower">Déroulement d’une séance</span>
               </h2>
-              <p>Founded in 1987 by the Hernandez brothers, our establishment has been serving up rich coffee sourced from artisan farmers in various regions of South and Central America. We are dedicated to travelling the world, finding the best coffee, and bringing back to you here in our cafe.</p>
-              <p class="mb-0">We guarantee that you will fall in <em>lust</em> with our decadent blends the moment you walk inside until you finish your last sip. Join us for your daily routine, an outing with friends, or simply just to enjoy some alone time.</p>
+              <p class="mb-0">Nous commencerons la séance par un court entretien sur votre motif de consultation ainsi
+                que vos habitudes de vie et antécédents médicaux.<br><br>
+                Puis, une phase de test médicaux et ostéopathique qui permettront de mettre en place un plan
+                de traitement pour répondre au mieux à votre problématique.<br><br>
+                Une consultation dure entre 45 minutes et 1 heure.<br><br>
+                <em>NB: Bien que préférable, il n'est pas obligatoire d'être en sous-vêtements. 
+                En revanche une tenue souple est fortement conseillée (short, leggings, t-shirt ...).</em></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="page-section about-heading" id="tarif">
+    <div class="container">
+      <div class="about-heading-content">
+        <div class="row">
+          <div class="col-xl-9 col-lg-10 mx-auto">
+            <div class="bg-faded rounded p-5" id="tarif">
+              <h2 class="section-heading mb-4">
+                <span class="section-heading-lower">Tarif</span>
+              </h2>
+              <p class="mb-0">
+                Le tarif de consultation est de <b>55€</b>.<br><br>
+                Modes de paiement : chèque, carte bleue ou espèce. <br><br>
+                Les soins ostéopathiques, quel que soit le praticien qui les dispense,
+                ne sont pas remboursables par la Sécurité sociale.<br><br>
+                Cependant, de très nombreuses mutuelles assurent une prise en charge partielle ou totale.
+                Pour cela il vous suffit de faire parvenir la facture à votre mutuelle.<br><br>
+                <a target="_blank" rel="noopener noreferrer" href="https://www.osteopathe-syndicat.fr/osteopathie-remboursement">Liste des mutuelles remboursant l’ostéopathie.</a>
+              </p>
             </div>
           </div>
         </div>
