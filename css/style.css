@@ -67,6 +67,7 @@ p {
 
 .section-heading {
   text-transform: uppercase;
+  word-break: break-word;
 }
 
 .section-heading .section-heading-upper {
