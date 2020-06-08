@@ -283,6 +283,11 @@ p {
   padding-bottom: 100px;
 }
 
+#doctolib-link {
+  position: inherit;
+  margin-bottom: 2em;
+}
+
 #phone {
   position: absolute;
   left: 50%;
