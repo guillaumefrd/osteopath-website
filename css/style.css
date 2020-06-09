@@ -4,9 +4,12 @@
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-business-casual/blob/master/LICENSE)
  */
 
+ html {
+   scroll-behavior: smooth;
+ }
+
 body {
   font-family: 'Lora';
-  /* background-image: linear-gradient(rgba(47, 23, 15, 0.65), rgba(47, 23, 15, 0.65)), url("../img/bg.jpg"); */
   background-image: linear-gradient(rgba(250, 247, 240, 0.65), rgba(250, 247, 240, 0.65));
   background-attachment: fixed;
   background-position: center;
@@ -86,12 +89,12 @@ p {
 }
 
 #mainNav {
-  background-color: #e6a756;
+  background-color: #3498DB;
   font-family: 'Raleway';
 }
 
 #mainNav .navbar-brand {
-  color: rgba(47, 23, 15, 1);
+  color: white;
 }
 
 #mainNav .navbar-nav .nav-item .nav-link {
@@ -100,7 +103,7 @@ p {
 }
 
 #mainNav .navbar-nav .nav-item.active .nav-link {
-  color: rgba(47, 23, 15, 0.8);
+  color: rgba(255, 255, 255, 0.9);
 }
 
 @media (min-width: 992px) {
@@ -108,10 +111,10 @@ p {
     font-size: 0.9rem;
   }
   #mainNav .navbar-nav .nav-item .nav-link:hover {
-    color: rgba(47, 23, 15, 0.8);
+    color: rgba(201, 234, 255, 1);
   }
   #mainNav .navbar-nav .nav-item.active .nav-link:hover {
-    color: rgba(47, 23, 15, 0.8);
+    color: rgba(201, 234, 255, 1);
   }
 }
 
@@ -156,7 +159,7 @@ p {
 .cta {
   padding-top: 5rem;
   padding-bottom: 5rem;
-  background-color: rgba(230, 167, 86, 0.9);
+  background-color: rgba(133, 193, 233, 0.9);
 }
 
 .cta .cta-inner {
@@ -213,7 +216,7 @@ p {
 }
 
 .list-hours .list-hours-item {
-  border-bottom: 1px solid rgba(230, 167, 86, 0.5);
+  border-bottom: 1px solid rgba(133, 193, 233, 0.5);
   padding-bottom: .25rem;
   margin-bottom: 1rem;
   font-style: italic;
@@ -221,7 +224,7 @@ p {
 
 .list-hours .list-hours-item.today {
   font-weight: bold;
-  color: #e6a756;
+  color: #3498DB;
 }
 
 @media (min-width: 992px) {
@@ -236,7 +239,7 @@ p {
 }
 
 .footer {
-  background-color: #e6a756;
+  background-color: #3498DB;
   color: white;
 }
 
@@ -246,11 +249,11 @@ p {
 }
 
 .text-primary {
-  color: #e6a756 !important;
+  color: #3498DB !important;
 }
 
 .bg-primary {
-  background-color: #e6a756 !important;
+  background-color: #3498DB !important;
 }
 
 .btn {
@@ -258,13 +261,13 @@ p {
 }
 
 .btn-primary {
-  background-color: #e6a756;
-  border-color: #e6a756;
+  background-color: #3498DB;
+  border-color: #3498DB;
 }
 
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
-  background-color: #df902a;
-  border-color: #df902a;
+  background-color: rgba(133, 193, 233, 1);
+  border-color: rgba(133, 193, 233, 1);
 }
 
 .font-weight-light {
